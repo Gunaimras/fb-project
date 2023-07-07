@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin-top: 0px;
+}
+.container{
+    margin-top: 200px;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    margin-right: 100px;
+    
+}
+
+.name{
+    color: blue;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.subheading{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.right{
+    width: 50%;
+    margin-right: 250px;
+    padding: 10px  10px 15px 15px ;
+    width:320px;
+    border: 2px solid rgb(241, 233, 233);
+    border-radius: 5px;
+    
+    
+    
+    
+
+
+}
+.guns{
+    padding: 5px 5px 10px 10px;
+    width: 300px;
+    text-align: center;
+    text-align: start;
+    border-radius: 5px;
+    border-color: rgb(247, 247, 253);
+    
+    
+}
+.gunt{
+    margin-top: 15px;
+    width: 300px;
+    padding:5px 5px 10px 10px ;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(237, 222, 251);
+    
+}
+
+.lgin{
+    margin-top: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 300px;
+    padding: 5px 5px 10px 10px;
+    border-radius: 5px;
+}
+.rox{
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+    padding: 5px 5px 10px 10px;
+    width: 300px;
+    border-bottom: 1px solid rgb(223, 216, 216)
+    
+}
+.ermw{
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+    padding: 5px 5px 10px 10px;
+    border-radius:1px;
+    
+    border: 1px solid green;
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+}
+.foot{
+    margin-top: 30px;
+}
+
+.foot span{
+    font-weight: bold;
+    color: black;
+    
+
+
+
+    margin-left: 810px;
+}
+
+
+/* mobile  screen*/
+
+@media only screen and (min-width: 375px){
+   .heading{
+        width: 100%;
+    }
+    .left{
+        
+        position: relative;
+        
+
+    }
+    .name{
+        position: absolute;
+        bottom: 300px;
+        margin-top: 20px;
+        
+        text-align: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+    .subheading{
+        position: absolute;
+        bottom: 150px;
+        text-align: center;
+        margin-left: 230px;
+        flex-direction: row;
+    }
+    .right{
+        margin-top: 60px;
+        margin-right: 100px;
+        align-items: center;
+        justify-content: center;
+
+    }
+.foot span{
+    margin-left: 50px;
+
+
+    
+}
+}
